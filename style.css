@@ -8,98 +8,47 @@ html{
     font-size: 60px;
     margin: 50px;
 }
-#BloqueSevilla{
+.Bloque{
     padding-bottom: 30px;
     margin: 10%;
     width: 80%;
     height: auto;
     background-size: 100% 100%;
-    background-image: url("/Banderas/Sevilla Bandera.png");
     padding-right: 30px;
 }
-#BloqueCordoba{
-    margin: 10%;
-    width: 80%;
-    height: 400px;
-    background-size: 100% 100%;
-    background-image: url("/Banderas/Bandera Cordoba.png");
-}
-#BloqueMalaga{
-    margin: 10%;
-    width: 80%;
-    height: 400px;
-    background-size: 100% 100%;
-    background-image: url("/Banderas/Bandera Malaga.png");
-}
-#BloqueCadiz{
-    margin: 10%;
-    width: 80%;
-    height: 400px;
-    background-size: 100% 100%;
-    background-image: url("/Banderas/Bandera Cadiz.jpg")
-}
-#BloqueJaen{
-    margin: 10%;
-    width: 80%;
-    height: 400px;
-    background-size: 100% 100%;
-    background-image: url("/Banderas/Bandera Jaen.png")
-}
-#BloqueHuelva{
-    margin: 10%;
-    width: 80%;
-    height: 400px;
-    background-size: 100% 100%;
-    background-image: url("/Banderas/Bandera Huelva.png")
-}
-#BloqueGranada{
-    margin: 10%;
-    width: 80%;
-    height: 400px;
-    background-size: 100% 100%;
-    background-image: url("/Banderas/Bandera Granada.png")
-}
-#BloqueAlmeria{
-    margin: 10%;
-    width: 80%;
-    height: 400px;
-    background-size: 100% 100%;
-    background-image: url("/Banderas/Bandera Almeria.png")
-}
-.FechaCreacion{
+.celda{
     text-align: right;
-    font-size: 14px;
-    color: white;
-    background-color: #545454;
-    margin-left: 90%;
-}
-.Descripcion{
-    text-align: right;
-    font-size: 14px;
-    color: white;
-    background-color: #545454;
-    margin-left: 40%; 
-}
-.RelatoHistorico{
-    text-align: right;
-    font-size: 14px;
-    color: white;
-    background-color: #545454;
+    background-color: rgb(54, 51, 51);
     margin-left: 40%;
-}
-.NumVictimas{
-    text-align: right;
-    font-size: 14px;
+    margin-bottom: 1%;
     color: white;
-    background-color: #545454;
-    margin-left: 40%;
+}
+.fecha{
+    font-size: 30px;
+    font-weight: 800;
+}
+.muchotexto{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.texto-oculto {
+  display: none;
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+.contenedor:hover .texto-oculto {
+  display: block;
 }
 .URL{
-    text-align: right;
-    font-size: 14px;
-    color: white;
-    background-color: #545454;
-    margin-left: 90%;
+    color: blue;
+    font-size: 35px;
 }
 .NombreFosa{
     text-align: center;

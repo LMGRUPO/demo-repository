@@ -1,7 +1,7 @@
 html{
     background-color: #35176e;
 }
-#Titulo{
+#tituloGeneral{
     text-align: center;
     background-color: black;
     color: white;
@@ -9,19 +9,35 @@ html{
     margin: 50px;
 }
 .bloque{
-    padding-bottom: 30px;
     margin: 10%;
     width: 80%;
     height: auto;
     background-size: 100% 100%;
     padding-right: 30px;
 }
+#intro{
+    background-color: black;
+    color: white;   
+}
+#intro p{
+    max-width: 50%;
+    text-align: justify;  
+}
 .celda{
     text-align: right;
     background-color: rgb(54, 51, 51);
-    margin-left: 40%;
-    margin-bottom: 1%;
+    flex: 1 1 45%;
     color: white;
+  /*display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:;*/
+}
+.imagen{
+    margin-top: 500px;
+    height: 100px;
+    width: 100%;
+    background-color: black;
 }
 .fecha{
     font-size: 30px;
@@ -40,32 +56,40 @@ html{
 .cordoba{
     background-image: url(Banderas/BanderaCordoba.png); 
 }
-.texto-oculto {
-  display: none;
-  position: absolute;
-  top: 100%; 
-  left: 0;
-  background-color: #333;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 5px;
-  white-space: nowrap;
+.jaen{
+    background-image: url(Banderas/BanderaJaen.png);
 }
-.muchotexto:active .texto-oculto {
-  display: block;
-  
+.huelva{
+    background-image: url(Banderas/BanderaHuelva.png);
+}
+.cadiz{
+    background-image: url(Banderas/BanderaCadiz.jpg);
+}
+.malaga{
+    background-image: url(Banderas/BanderaMalaga.png);
+}
+.sevilla{
+    background-image: url(Banderas/BanderaSevilla.png);
+}
+.granada{
+    background-image: url(Banderas/BanderaGranada.png);
+}
+#tituloFosas{
+    text-align: center;
+    font-size: 70px;
+    background-color: purple;
+    font-style: italic;
+    color: white;
 }
 .URL{
     color: blue;
-    font-size: 35px;
+    font-size: 20px;
+    
 }
-.NombreFosa{
+h2{
     text-align: center;
     color: white;
-    font-size: 30px;
-}
-h2 {
-    margin: 0%;
+    
 }
 p{
     padding: 5%;

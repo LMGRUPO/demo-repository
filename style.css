@@ -9,11 +9,14 @@ html{
     margin: 50px;
 }
 .bloque{
-    margin: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
     width: 80%;
     height: auto;
     background-size: 100% 100%;
     padding-right: 30px;
+    border: 5px solid black;
+    
 }
 #intro{
     background-color: black;
@@ -26,12 +29,15 @@ html{
 .celda{
     text-align: right;
     background-color: rgb(54, 51, 51);
-    flex: 1 1 45%;
+    /* flex: 1 1 45%; */
     color: white;
-  /*display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items:;*/
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:;*/
+    margin-left:60%;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 .imagen{
     margin-top: 500px;
@@ -74,7 +80,7 @@ html{
 .granada{
     background-image: url(Banderas/BanderaGranada.png);
 }
-#tituloFosas{
+.tituloFosas{
     text-align: center;
     font-size: 70px;
     background-color: purple;

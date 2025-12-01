@@ -7,7 +7,7 @@ html{
     background-color: black;
     color: white;
     font-size: 60px;
-    margin: 50px;
+    padding: 80px 15px 80px 15px;
 }
 .contenedorGeneral{
     display: flex;
@@ -18,11 +18,15 @@ html{
     margin-left: 10%;
     width: 80%;
     height: auto;
-    background-size: 100% 100%;
     padding-right: 30px;
     border-radius: 20px; 
     display: flex;
     flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .contenedorTitulo{
@@ -49,11 +53,18 @@ html{
     align-self: center;
 }
 #intro{
-    background-color: rgb(54, 51, 51);
+    background: rgb(54, 51, 51);
     color: white;
     display: grid;
     grid-template-columns: auto auto auto;
     align-items: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+    background-size: 100% 100%;
+    padding-right: 30px;
+    border-radius: 20px; 
 }
 #intro p{
     text-align: justify;
@@ -106,7 +117,7 @@ html{
 }
 .sevilla{
     background-image: url(Banderas/BanderaSevilla.png);
-}
+} 
 .granada{
     background-image: url(Banderas/BanderaGranada.png);
 }
@@ -115,13 +126,24 @@ html{
     font-size: 70px;
     background-color: purple;
     font-style: italic;
+    font-weight: bold;
     color: white;
+    padding: 40px 15px 40px 15px;
+    border-radius: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
 }
 
 .URL{
-    color: blue;
-    font-size: 20px;
+    color: white;
+    font-size: 30px;
     
+}
+.URL:hover{
+    color: blue;
+    transition: 1s;
 }
 h2{
     text-align: center;
@@ -195,7 +217,6 @@ header {
     display: block;
 }
 
-
 .submenuarriba li {
     width: 100%;
 }
@@ -207,7 +228,6 @@ header {
 .submenuarriba li a:hover {
     background-color: #666;
 }  
-
 .menu-toggle-btn {
     position: fixed;
     top: 50%; 

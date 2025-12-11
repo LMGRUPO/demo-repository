@@ -98,28 +98,36 @@ html{
     padding: 10px;
 }
 .almeria{
-    background-image: url(Banderas/BanderaAlmeria.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(Banderas/BanderaAlmeria.png);
 }
 .cordoba{
-    background-image: url(Banderas/BanderaCordoba.png); 
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(Banderas/BanderaCordoba.png); 
 }
 .jaen{
-    background-image: url(Banderas/BanderaJaen.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(Banderas/BanderaJaen.png);
 }
 .huelva{
-    background-image: url(Banderas/BanderaHuelva.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(Banderas/BanderaHuelva.png);
 }
 .cadiz{
-    background-image: url(Banderas/BanderaCadiz.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(Banderas/BanderaCadiz.jpg);
 }
 .malaga{
-    background-image: url(Banderas/BanderaMalaga.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(Banderas/BanderaMalaga.png);
 }
 .sevilla{
-    background-image: url(Banderas/BanderaSevilla.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(Banderas/BanderaSevilla.png);
 } 
 .granada{
-    background-image: url(Banderas/BanderaGranada.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+    url(Banderas/BanderaGranada.png);
 }
 .tituloFosas{
     text-align:center;
@@ -359,8 +367,28 @@ header {
     background-color: #333; 
 }
 
-footer{
-    font-size: 20px;
-    background: blueviolet;
-    color: white;  
-}   
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: purple;       
+    color: white;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.footer-left img{
+    width: 100%;
+    height: auto;
+    background-color: white;
+} 
+
+.footer-right {
+    text-align: right;        /* Alinea el texto hacia la derecha */
+}
+
+.footer-right p {
+  margin: 5px 0;
+  font-size: 2em;
+}
+
